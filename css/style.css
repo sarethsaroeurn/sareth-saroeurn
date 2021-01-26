@@ -4,35 +4,45 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background: rgb(255, 122, 195);
+
 }
 body{
     font-family: sans-serif;
+    background: rgb(255, 122, 195);
 }
-label.logo{
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+nav {
+    margin-bottom: 10px;
 }
 nav ul{
-    float: right;
-    margin-right: 5%;
+    margin-right: 60%;
+    margin-left: 65%;
+    margin-top: -4%;
+    display: flex;
+}
+nav ul li :hover{
+    color: rgb(139, 134, 134);
     
 }
 nav ul li{
     display: inline-block;
+    margin: 0 10px;
 }
 a{
     color: white;
     font-weight: bold;
     margin-left: 10px;
 }
-h4{
+nav img{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.contianer{
+    text-align: center;
+    width: 30%;
     color: white;
-    font-size: 20px;
-    line-height: 5%;
-    padding: 0 100px;
-    font-weight: bold;
+    padding: 10px;
+    margin-top: 15%;
+    margin-left: 15%;
 }
