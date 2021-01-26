@@ -18,22 +18,21 @@ label.logo{
 }
 nav ul{
     float: right;
-    margin-right: 15%;
+    margin-right: 5%;
     
 }
 nav ul li{
     display: inline-block;
-    line-height: 20%;
-    margin: 0 5px;
 }
 a{
     color: white;
     font-weight: bold;
+    margin-left: 10px;
 }
 h4{
     color: white;
     font-size: 20px;
-    line-height: 2%;
+    line-height: 5%;
     padding: 0 100px;
     font-weight: bold;
 }
