@@ -8,7 +8,7 @@
 }
 body{
     font-family: sans-serif;
-    background: rgb(255, 122, 195);
+    background: rgb(118, 137, 143);
 }
 nav {
     margin-bottom: 10px;
@@ -20,7 +20,7 @@ nav ul{
     display: flex;
 }
 nav ul li :hover{
-    color: rgb(139, 134, 134);
+    color: rgb(10, 10, 10);
     
 }
 nav ul li{
@@ -37,12 +37,55 @@ nav img{
     margin-left: 10%;
     margin-top: 2%;
 }
-
-.contianer{
-    text-align: center;
-    width: 30%;
-    color: white;
-    padding: 10px;
+.container{
+    display: flex;
+}
+.contain img{
+    width: 50%;
     margin-top: 15%;
-    margin-left: 15%;
+    margin-left: 40%;
+
+}
+.paragram{
+    width: 40%;
+    color: rgb(44, 38, 38);
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: -2%;
+    font-family: sans-serif;
+}
+.paragram h2{
+    font-family: sans-serif;
+    color: black;
+}
+.photo{
+    display: flex;  
+}
+.colom img{
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+.row{
+    width: 40%;
+    color: rgb(39, 37, 37);
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: -5%;
+    font-family: sans-serif;
+}
+.row h3{
+    color: rgb(238, 100, 8);
+}
+.colom h3{
+    margin-top: -1%;
+    margin-left: 58%;
+}
+.pdf{
+    background: royalblue;
+    width: 15%;
+    padding:10px;
+    margin-left: 55%;
+    margin-top: -5%;
+    border-radius: 7px;
 }
