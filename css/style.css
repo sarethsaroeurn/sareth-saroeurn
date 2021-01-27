@@ -20,7 +20,7 @@ nav ul{
     display: flex;
 }
 nav ul li :hover{
-    color: rgb(10, 10, 10);
+    color: rgb(217, 219, 219);
     
 }
 nav ul li{
@@ -28,7 +28,7 @@ nav ul li{
     margin: 0 10px;
 }
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin-left: 10px;
 }
@@ -75,17 +75,30 @@ nav img{
     font-family: sans-serif;
 }
 .row h3{
-    color: rgb(238, 100, 8);
+    color: rgb(230, 230, 230);
 }
 .colom h3{
     margin-top: -1%;
     margin-left: 58%;
+    color: rgb(251, 251, 255);
 }
 .pdf{
-    background: royalblue;
+    background: rgb(230, 140, 6);
     width: 15%;
     padding:10px;
     margin-left: 55%;
     margin-top: -5%;
     border-radius: 7px;
+}
+ul{
+    display: flex;
+    margin-left: 23%;
+    margin-top: 3%;
+
+}
+ul li{
+    margin: 0 -3px;
+}
+.active {
+    color: rgb(255, 145, 0);
 }
