@@ -1,0 +1,12 @@
+@media(max-width: 678px) {
+    .container {
+        flex-direction: column;
+    }
+    ul li a{
+         margin: auto;
+        padding: 10px;
+    }
+    nav img{
+        width: 25%;
+    }
+}
