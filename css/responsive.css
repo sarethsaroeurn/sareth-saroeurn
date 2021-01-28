@@ -1,12 +1,36 @@
-@media(max-width: 678px) {
-    .container {
+@media(max-width: 400px) {
+    nav img,
+    ul,
+    .container,
+    .photos1,
+    .photos2,
+    .work,
+    .ttt {
         flex-direction: column;
+        display: flex;
+
     }
-    ul li a{
-         margin: auto;
-        padding: 10px;
+}
+@media(max-width: 678px) {
+    nav img,
+
+    .container,
+    .photos1,
+    .photos2,
+    .work,
+    .ttt {
+        flex-direction: column;
+        display: flex;
+
     }
-    nav img{
-        width: 25%;
+}
+@media(max-width: 778px) {
+    nav img,
+    .container,
+    .photos1,
+    .photos2,
+    .work,
+    .ttt {
+        flex-direction: column;
     }
 }

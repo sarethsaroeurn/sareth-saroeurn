@@ -57,7 +57,7 @@ nav img{
 }
 .paragram{
     width: 40%;
-    color: rgb(0, 243, 223);
+    color: rgb(3, 3, 3);
     padding: 10px;
     margin-top: 10%;
     margin-left: -2%;
@@ -65,7 +65,7 @@ nav img{
 }
 .paragram h2{
     font-family: sans-serif;
-    color: rgb(0, 240, 248);
+    color: rgb(53, 53, 53);
 }
 
 
@@ -93,19 +93,19 @@ ul li a{
     height: 300px;
 }
 .photos3 p{
-    width: 80%;
-    color: rgb(0, 0, 0);
+    width:80%;
+    color: rgb(241, 241, 241);
     margin-top: 3%;
     font-family: sans-serif;
 }
 .photos4 p{
     width: 80%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-top: 3%;
     font-family: sans-serif;
 }
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-left: 35%;
     font-family: sans-serif;
 }
@@ -113,17 +113,16 @@ h1{
     display: flex;
 }
 .job img{
-    width: 80%;
+    width: 500px;
     margin-top: 15%;
     margin-left: 15%;
     height: 100%;
 }
-.write{
-    width: 40%;
-    color: rgb(0, 243, 223);
-    padding: 10px;
-    margin-top: 10%;
-    margin-left:2%;
+.write p{
+    width: 75%;
+    color: rgb(255, 255, 255);
+    margin-top:2%;
+    margin-left:32%;
     font-family: sans-serif;
     
 }
@@ -140,7 +139,7 @@ h1{
 }
 .ttt{
     margin-left: 55%;
-    margin-top: -6%;
+    margin-top: 1%;
     padding: 20px;
     
 }
@@ -148,22 +147,7 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-.N{
-    background: rgb(45, 91, 117);
-    display: flex;
-    margin-top: 15%;
-}
-.nov img{
-    width: 30%;
-    margin-top: 5%;
-    margin-left: 55%;
-}
-.bb{
-    width: 40%;
-    text-align: center;
-    margin-left: -5%;
-    margin-top: 6%;
-}
+
 
 
 
@@ -186,14 +170,14 @@ nav img{
 }
 .row{
     width: 40%;
-    color: rgb(0, 255, 234);
+    color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 11%;
     margin-left: -1%;
     font-family: sans-serif;
 }
 .row h3{
-    color: rgb(0, 240, 248);
+    color: rgb(254, 255, 255);
     margin-top:-5%;
 }
 .colom h3{
@@ -203,12 +187,7 @@ nav img{
 }
 .form-container{
     width: 300px;
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     padding: 10px;
-    border-radius: 7px;
     margin-left: 18%;
 
 }
@@ -236,13 +215,11 @@ select{
 
 input[type=submit]{
     border: none;
-    background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: rgb(197, 197, 197);
     cursor: pointer;
     border-radius: 7px;
     margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
 
 .all{
@@ -254,15 +231,11 @@ input[type=submit]{
     margin: 0 4%;
     margin-left: -3%;
     font-family: sans-serif;
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    border: 1px solid #fff;
 }
 .grop{
     margin-left: 50%;
     margin-top: -15%;
-    padding: 10px;
 }
 ul{
     display: flex;
@@ -274,10 +247,8 @@ ul{
 }
 
 button{
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    border: 1px solid #fff;
+    background: rgb(118, 137, 143);;
     margin-top: 11%;
     margin-left: 60%;
     height: 50px;
@@ -297,6 +268,7 @@ button{
 .cmm1 h2{
     margin-top: 10%;
     color: white;
+    margin-left: -13%;
 }
 
 
@@ -342,7 +314,75 @@ button{
 }
 .education{
     margin-left: 20%;
-    width: 50%;
-    text-align: center;
     margin-top: 10%;
+    color: white;
+}
+.write {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.educa1 h2{
+    color: tomato;
+}
+
+
+
+
+
+.N{
+    background: rgb(45, 91, 117);
+    display: flex;
+    margin-top: 2%;
+}
+.nov img{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+.bb{
+    width: 45%;
+    text-align: start;
+    margin-left: -15%;
+    margin-top: 4%;
+    color: rgb(221, 221, 221);
+}
+
+
+
+
+.para{
+    width: 40%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: sans-serif;
+}
+.para h3{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.para h4{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.cc p{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+footer{
+    background: rgb(23, 112, 134);
+    height: 7vh;
+    height: 10vh;
+    color:rgb(23, 112, 134);
+}
+
+.educa{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: start;
 }
