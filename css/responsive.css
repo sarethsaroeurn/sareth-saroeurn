@@ -1,34 +1,21 @@
-/* @media(max-width:800px){
-    nav img,
-
-    .container,
-    .photos1,
-    .photos2,
-    .work,
-    .ttt {
-        flex-direction: column;
-        display: flex;
-
-    }
-} */
-@media(max-width:700px){
+@media(max-width:800px){
     nav img{
-        width: 50%;
+        width: 30%;
     }
     nav ul{
-        flex-direction: column;
-        margin-left: 13%;
+        margin-left: 50%;
+        margin-top: -10%;
     }
-    .container{
-        flex-direction: column;
-    }
+    
     .contain img{
         width: 40%;
+        margin-left: 20%;
+
 
     }
     .paragram{
-        width: 100%;
-        margin-left: 1%;
+        width: 40%;
+        margin-left: -20%;
     }
     h1{
         width: 100%;
@@ -66,6 +53,7 @@
     .job img{
         width: 100%;
         margin-left: -1%;
+        margin-top: 2%;
     }
     .write h2{
         width: 100%;
@@ -77,7 +65,7 @@
     }
     .ttt{
         flex-direction: column;
-        margin-left: 25%;
+        margin-left: -2%;
     }
     footer{
         margin-left: -1%;
@@ -85,14 +73,14 @@
 
 }
 
-
 @media(max-width:600px){
     nav img{
-        width: 50%;
+        width: 30%;
+        margin-left: 2%;
     }
     nav ul{
-        flex-direction: column;
-        margin-left: 13%;
+        margin-left:1%;
+        margin-top: -2%;
 
 
 
@@ -102,6 +90,7 @@
     }
     .contain img{
         width: 40%;
+        margin-left: 30%;
 
     }
     .paragram{
@@ -144,6 +133,7 @@
     .job img{
         width: 100%;
         margin-left: -1%;
+        margin-top: 2%;
     }
     .write h2{
         width: 100%;
@@ -155,10 +145,10 @@
     }
     .ttt{
         flex-direction: column;
-        margin-left: 25%;
+        margin-left: 2%;
     }
     footer{
         margin-left: -1%;
     }
-
+    
 }
