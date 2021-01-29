@@ -1,17 +1,4 @@
-@media(max-width: 400px) {
-    nav img,
-    ul,
-    .container,
-    .photos1,
-    .photos2,
-    .work,
-    .ttt {
-        flex-direction: column;
-        display: flex;
-
-    }
-}
-@media(max-width: 678px) {
+/* @media(max-width:800px){
     nav img,
 
     .container,
@@ -23,14 +10,155 @@
         display: flex;
 
     }
-}
-@media(max-width: 778px) {
-    nav img,
-    .container,
-    .photos1,
-    .photos2,
-    .work,
-    .ttt {
+} */
+@media(max-width:700px){
+    nav img{
+        width: 50%;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 13%;
+    }
+    .container{
         flex-direction: column;
     }
+    .contain img{
+        width: 40%;
+
+    }
+    .paragram{
+        width: 100%;
+        margin-left: 1%;
+    }
+    h1{
+        width: 100%;
+        margin-left:20%;
+    }
+    
+    .photos3 p{
+        margin-left: 10%;
+    }
+    .photos3 h3{
+        margin-left: 10%;
+        
+    }
+    .photos3 img{
+        margin-left: -3%;
+        width: 100%;
+    }
+    .photos4 img{
+        margin-left: -3%;
+        width: 100%;
+    }
+    .photos2{
+        flex-direction: column;
+    }
+    .photos4 p{
+        margin-left: 10%;
+    }
+    .photos4 h3{
+        margin-left: 10%;
+        
+    }
+    .work {
+        flex-direction: column;
+    }
+    .job img{
+        width: 100%;
+        margin-left: -1%;
+    }
+    .write h2{
+        width: 100%;
+        margin-left: 50%;
+    }
+    .write p{
+        width: 180%;
+        margin-left: 15%;
+    }
+    .ttt{
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    footer{
+        margin-left: -1%;
+    }
+
+}
+
+
+@media(max-width:600px){
+    nav img{
+        width: 50%;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 13%;
+
+
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    .contain img{
+        width: 40%;
+
+    }
+    .paragram{
+        width: 100%;
+        margin-left: 1%;
+    }
+    h1{
+        width: 100%;
+        margin-left:20%;
+    }
+    
+    .photos3 p{
+        margin-left: 10%;
+    }
+    .photos3 h3{
+        margin-left: 10%;
+        
+    }
+    .photos3 img{
+        margin-left: -3%;
+        width: 100%;
+    }
+    .photos4 img{
+        margin-left: -3%;
+        width: 100%;
+    }
+    .photos2{
+        flex-direction: column;
+    }
+    .photos4 p{
+        margin-left: 10%;
+    }
+    .photos4 h3{
+        margin-left: 10%;
+        
+    }
+    .work {
+        flex-direction: column;
+    }
+    .job img{
+        width: 100%;
+        margin-left: -1%;
+    }
+    .write h2{
+        width: 100%;
+        margin-left: 50%;
+    }
+    .write p{
+        width: 180%;
+        margin-left: 15%;
+    }
+    .ttt{
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    footer{
+        margin-left: -1%;
+    }
+
 }
